@@ -1,0 +1,88 @@
+body{
+    margin: auto;
+    width: 80%;
+}
+
+.titulo-principal{
+    position: absolute;
+    top: 50px;
+    padding-left: 40px;
+    color: rgb(6, 39, 110);
+    font-size:1.5em;
+    font: bold 20px/1 ;
+    text-transform: uppercase;
+    text-shadow: 0  2px 0 #8b6e15,
+    0  1px 0 #d3cab1,
+    0  2px 0 #80734d, 
+    0  3px 0 #796528, 
+    0 4px 0 #64531e,
+    0 5px 0 #41330a;
+    
+}
+
+.logo{
+    position: absolute;
+    top: 60%;
+}
+
+.img-design-1{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    margin: auto;
+    width: 50%;
+    height: 40%;
+    top: 10%;
+}
+
+nav{
+    position: absolute;
+    top:9%;
+    left: 45%;
+}
+
+nav a{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(44, 101, 134);
+    color: white;
+    text-decoration:none;
+}
+
+nav a:hover{
+    background-color:rgb(89, 148, 0);
+
+}
+
+.page-theme{
+    position: absolute;
+    top:50%;
+    right:30.5em;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border: none;
+    border-radius:15px;
+    width: 50%;
+
+    
+}
+
+main{
+    position: absolute;
+    top:60%;
+    left: 25%;
+    width: 35%;
+}
+
+.hockey-image{
+    position:relative;
+    display: inline-block;
+    width: 75%;
+    height: 75%;
+    border-radius: 15px;
+    right: 11%;
+    
+    
+}
