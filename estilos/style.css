@@ -3,6 +3,7 @@ body{
     width:80%;
     background-color: antiquewhite;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
 }
 
 header{
@@ -96,16 +97,26 @@ main{
     padding: 10px;
 }
 
+section{
+    margin:auto;
+    padding: 10px;
+    background-color:darkcyan;
+}
+
 table{
     margin:auto;
 
 }
 
+span{
+    font-weight: bold;
+}
+
 th{
     margin:auto;
     padding: 5px;
-    border: 1px solid rgb(143, 109, 59);
-    color: hotpink;
+    border: 1px solid rgb(137, 16, 148);
+    color: rgb(255, 255, 255);
 }
 
 td{
