@@ -97,7 +97,7 @@ main{
     padding: 10px;
 }
 
-section{
+section, form{
     margin:auto;
     padding: 10px;
     background-color:darkcyan;
