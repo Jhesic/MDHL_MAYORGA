@@ -1,9 +1,16 @@
+:root{
+    --background-page: rgb(202, 187, 167);
+    --text-color:rgb(226, 242, 255);
+    --principal-color-title: rgb(209, 152, 209);
+    --background-main: darkcyan;
+}
+
 body{
     margin:auto;
-    width:80%;
-    background-color: antiquewhite;
+    width:95%;
+    background-color: var(--background-page);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: aliceblue;
+    color: var(--text-color);
 }
 
 header{
@@ -12,7 +19,7 @@ header{
 
 .titulo-principal{
     position:relative;
-    color: rgb(209, 152, 209);
+    color: var(--text-color);
     border-radius: 15px;
     text-align: center;
     margin: 10px;
@@ -28,9 +35,13 @@ header{
     position: relative;
     top:15%;
     left:25%;
-    color: white;
-    background-color: rgb(121, 21, 121);
+    color: var(--text-color);
+    background-color: var(--background-main);
     text-align: center;
+    text-shadow: 1px  0px 0px rgb(255, 255, 255),
+               0px  1px 0px white,
+              -1px  0px 0px black,
+               0px -1px 0px black;
     border: none;
     border-radius:15px;
     width: 50%;
@@ -40,6 +51,7 @@ header{
 .contenedor-banner{
     position: relative;
     display: inline-block;
+    margin: auto;
     background-image: url(../img/design1_image1.jpg);
     border-radius: 15px;
     margin-top:10px;
@@ -53,7 +65,7 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: rgb(209, 152, 209);
+    color: var(--text-color);
     padding:5px;
     margin: 5px;
     background-color:darkcyan;
@@ -79,12 +91,12 @@ nav a:hover{
 main{
     display: block;
     position: relative;
-    top: 25%;
-    left: 25%;
-    margin: 10px;
+    top:10%;
+    left: 10px;
+    margin: 10px auto;
     padding: 10px;
     background-color: whitesmoke;
-    width: 50%;
+    width: 90%;
     border-radius: 15px;
 }
 
@@ -100,7 +112,7 @@ main{
 section, form{
     margin:auto;
     padding: 10px;
-    background-color:darkcyan;
+    background-color: var(--background-main);
 }
 
 table{
@@ -115,7 +127,7 @@ span{
 th{
     margin:auto;
     padding: 5px;
-    border: 1px solid rgb(137, 16, 148);
+    background-color:darkgrey;
     color: rgb(255, 255, 255);
 }
 
@@ -123,5 +135,44 @@ td{
     margin:auto 5px;
     padding: 10px;
     text-align: center;
+}
+
+tr:nth-child(odd){
+    background-color:rgb(248, 165, 248)
+}
+
+tr:nth-child(even){
+    color: var(--background-main);
+    background-color:rgb(255, 225, 255)
+}
+
+.maps{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 3px;
+    background-color: var(--background-page);
+    justify-content: space-evenly;
+    align-content: center;
+    width: 1000px;
+    height: 1200px;
+}
+
+.map{
+    
+    margin: 2px;
+    padding: 2px;
+    background-color: var(--background-main);
+    list-style-type: none;
+    border: 1em solid var(--text-color);
+    text-align: center;
+    width: 150%;
+    height: 150px;
+    
+}
+
+.mis-mapas{
+    width: 90%;
+    height: 90%;
 }
 
